@@ -281,3 +281,23 @@ Após este overview, os próximos passos são:
 1. criar o template de registro diário
 2. criar a documentação base dos projetos
 3. iniciar o desenvolvimento dos artefatos técnicos da sprint
+
+---
+
+## Rotina de execução
+
+A execução da sprint seguirá um modelo simples e consistente:
+
+### Fluxo diário
+- Estudar (30–60 min)
+- Aplicar (30–60 min)
+- Registrar (10–15 min)
+- Encerrar (5 min)
+
+### Frequência de documentação
+- Registro diário → todos os dias de estudo
+- Recap semanal → 1x por semana
+- Checkpoint técnico → a cada 3–4 dias
+
+### Objetivo da rotina
+Garantir consistência, aplicação prática e retenção do conhecimento sem tornar o processo pesado ou inviável dentro da rotina diária.

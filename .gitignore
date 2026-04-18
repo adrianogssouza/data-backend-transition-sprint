@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment files
+.env
+
+# VS Code
+.vscode/
+
+# dbt
+target/
+dbt_packages/
+
+# Logs
+*.log

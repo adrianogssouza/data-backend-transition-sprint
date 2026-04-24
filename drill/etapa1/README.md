@@ -1,3 +1,3 @@
 # Drill Etapa 1 - Concluindo ...
 Status: Em progresso
-iniciando o exercicio2
+-iniciando o exercicio2

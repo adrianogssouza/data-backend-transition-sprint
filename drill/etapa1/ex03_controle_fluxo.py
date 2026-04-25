@@ -16,8 +16,26 @@ def classificar_transacao(transacao):
      return "suspeita" 
     return "normal"
 
+total_por_categoria = {}
+suspeitas = 0
+normais = 0
 for transacao in transacoes:
-   resultado = classificar_transacao(transacao)
-   print(f"{transacao['id']}->{resultado}")
+    categoria = transacao["categoria"]
+    valor = transacao["valor"]
+    
+    if categoria in total_por_categoria:
+        total_por_categoria[categoria] += valor
+    else:
+        total_por_categoria[categoria] = valor
+    resultado = classificar_transacao(transacao)
+    if resultado == "suspeita":
+        suspeitas+= 1
+    else:
+        normais +=1
+    print(f"{transacao['id']}->{resultado}")
+print(f"Suspeitas: {suspeitas}")
+print(f"Normais: {normais}")
+print(total_por_categoria)
+
 
 
